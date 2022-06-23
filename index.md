@@ -3,13 +3,13 @@
 I'm a Senior Engineering Leader, Agilist, and Computer Engineer. 
 
 # Roles
-- Senior Engineering Manager | Salesforce | San Francisco, CA
-- Agile Analytics & Data Science Lead | Autodesk | San Francisco, CA
-- Enterprise Agile Coach & Engineering Leader | Autodesk | San Francisco, CA
-- Team Lead, Software Engineer | Autodesk | Novi, MI
-- Software Engineer | Tata Consultancy Services | Troy, MI
-- Research Intern | Southeast University | Nanjing, Jiangsu, China
-- Technician & Web Developer | Samsa, Inc | Saginaw, MI
+- Senior Engineering Manager - Salesforce - San Francisco, CA
+- Agile Analytics & Data Science Lead - Autodesk - San Francisco, CA
+- Enterprise Agile Coach & Engineering Leader - Autodesk - San Francisco, CA
+- Team Lead, Software Engineer - Autodesk - Novi, MI
+- Software Engineer - Tata Consultancy Services - Troy, MI
+- Research Intern - Southeast University - Nanjing, Jiangsu, China
+- Technician & Web Developer - Samsa, Inc - Saginaw, MI
 
 
 # Projects
