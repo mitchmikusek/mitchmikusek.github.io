@@ -1,0 +1,31 @@
+---
+import type { Project } from '../data/projects';
+
+interface Props {
+  project: Project;
+  featured?: boolean;
+}
+
+const { project, featured } = Astro.props;
+---
+
+<div class:list={['project-card', { featured }]}>
+  <div class="project-header">
+    <span class="project-name">
+      {project.emoji}{' '}
+      {project.url ? (
+        <a href={project.url} target="_blank" rel="noopener noreferrer">{project.name}</a>
+      ) : (
+        project.name
+      )}
+      {project.active && <span class="project-status active">active</span>}
+    </span>
+    <span class="project-year">{project.year}</span>
+  </div>
+  <div class="project-desc">
+    {project.description}
+    {project.codeUrl && (
+      <>{' '}<a href={project.codeUrl} target="_blank" rel="noopener noreferrer" class="code-link">[code]</a></>
+    )}
+  </div>
+</div>
