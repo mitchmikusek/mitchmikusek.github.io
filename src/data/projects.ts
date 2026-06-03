@@ -10,6 +10,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    emoji: '🐝',
+    name: 'Beewick LLC',
+    description: 'Founder-led consultancy offering technology strategy, applied AI, agile delivery, and engineering coaching.',
+    url: 'https://beewick.com',
+    year: '2024 - present',
+    active: true,
+  },
+  {
     emoji: '🎮',
     name: 'Steam Controller Flash Tool',
     description: 'Flash BLE firmware onto the original Steam Controller from your browser using WebHID. Zero installs.',
