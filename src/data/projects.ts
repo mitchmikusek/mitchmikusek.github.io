@@ -27,6 +27,14 @@ export const projects: Project[] = [
     active: true,
   },
   {
+    emoji: '🐕',
+    name: 'いぬ山 (Inuyama)',
+    description: 'Bilingual JP/EN artwork portfolio for illustrator @inukainuzoku, with a curated gallery, full archive, and light/dark themes.',
+    url: 'https://inuyama.dog',
+    year: '2026 - present',
+    active: true,
+  },
+  {
     emoji: '🃏',
     name: 'DangPacks',
     description: 'Digital card trading platform for streamer Dan Gheesling - 5k users, 20k+ cards.',
