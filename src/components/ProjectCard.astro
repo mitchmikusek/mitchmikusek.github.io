@@ -18,9 +18,13 @@ const { project, featured } = Astro.props;
       ) : (
         project.name
       )}
-      {project.active && <span class="project-status active">active</span>}
     </span>
+  </div>
+  <div class="project-meta">
     <span class="project-year">{project.year}</span>
+    <span class:list={['project-status', project.active ? 'active' : 'done']}>
+      {project.active ? 'active' : 'done'}
+    </span>
   </div>
   <div class="project-desc">
     {project.description}

@@ -1,8 +1,12 @@
 ---
 import SectionTitle from './SectionTitle.astro';
+
+const interests = ['Gaming', 'Homelabbing', 'Anime', 'Manga', 'Arcades', 'Table tennis', 'Foosball'];
 ---
 
 <section class="interests-section">
   <SectionTitle title="Outside of Work" />
-  <p>Gaming, homelabbing, anime/manga, arcades, table tennis, and foosball.</p>
+  <ul class="interest-list">
+    {interests.map((interest) => <li class="interest-badge">{interest}</li>)}
+  </ul>
 </section>
